@@ -14,3 +14,7 @@ app.listen(
     () => console.log(`server ready at http://localhost:${PORT}`)
 );
 
+// TEST
+app.get('/', (req, res) => {
+    res.sendStatus(200);
+});
